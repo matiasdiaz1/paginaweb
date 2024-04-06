@@ -24,7 +24,7 @@ background-position: center;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    background: #02B4E6;
+    background: #7402e6;
 
 }
 
@@ -65,6 +65,7 @@ background-position: center;
     width: 210px;
     height: 328px;
     margin-inline: 10px;
+    border-radius: 1rem;
 }
 
 

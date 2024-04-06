@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+    h1,h2,h3,h4,h5,h6,p,a,input,textarea {
+        margin: 0;
+        padding: 0;
+    }
+
+    ul{ 
+        list-style: none;
+    }
+    a {
+        text-decoration: none;
+    }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    background-color: #7402e6;
+}
+
+aside {
+    padding: 2rem;
+    color: white;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    display: flex; 
+    flex-direction: column;
+    justify-content:space-between ;
+}
+
+.logo {
+    font-size: 1.3rem;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.boton-menu {
+    background-color: transparent;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    gap: 1rem;
+    font-weight: 600;
+    padding: 1rem;
+    font-size: .85rem;
+}
+
+.boton-carrito {
+    margin-top: 2rem;
+}
+.boton-menu.active {
+    background-color: white;
+    color: #7402e6;
+    width: 122%;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+main {
+    background-color: white;
+    margin: 1rem;
+    margin-left: 0;
+    border-radius: 2rem;
+    padding: 3rem;
+    font-weight: 600;
+}
+
+.titulo-principal {
+    color: #7402e6;
+margin-bottom: 2rem;
+}
+
+.contenedor-productos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.producto-imagen {
+    max-width: 100%;
+    border-radius: 1rem;
+}
+
+.producto-detalles {
+    background-color: #7402e6;
+    color: white;
+    padding: .5rem;
+    border-radius: 1rem;
+    margin-top: -2rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.producto-titulo {
+    font-size: 1rem;
+}
+
+.producto-comprar { 
+    border: 0;
+    background: white;
+    color: #7402e6;
+    padding: .5rem;
+    border-radius: 1rem;
+    cursor:pointer;
+    border: 2px solid white;
+    transition: background-color .2s, color .2s;
+
+}
+
+.producto-comprar:hover {
+    background-color: #7402e6;
+    color: white;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="estilos/man.css">
+
+</head>
+<body>
+    <div class="wrapper">
+        <aside>
+            <header>
+                <h1 class="logo">FitClub</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li>
+                        <a class="boton-menu boton-volver" href="mancuernas.html">
+                        <i class="bi bi-arrow-bar-left"></i>Seguir comprando
+                    </a>
+                </li>
+                    <li>
+                        <a class="boton-menu boton-carrito active" href="carito.html">
+                        <i class="bi bi-cart-fill"></i>Carrito
+                    </a>
+                </li>
+                </ul>
+            </nav>
+        </aside>
+        <main>
+            <h2 class="titulo-principal">Carrito</h2>
+            <div class="contenedor-carrito">
+                <p class="carrito-vacio">Tu carro está vacío</p>
+
+                <div class="carrito-producto">
+                    
+                </div>
+                
+                <div class="carrito-productos">
+                    <img src="img/moto.webp" alt="">
+                    <div class="carrito-producto-titulo">
+                        <h3>Mancuerna 3 kilos</h3>
+                    </div>
+                    <div class="carrito-producto-cantidad">
+                        <small>Cantidad</small>
+                        <p>1</p>
+                    </div>
+                    <div class="carrito-producto-precio">
+                        <small>Precio</small>
+                        <p>$200</p>
+                    </div>
+                    <div class="carrito-producto-subtotal">
+                        <small>Subtotal</small>
+                        <p>$200</p>
+                    </div>
+                    <button class="carrito-producto-vaciar"><i class="bi bi-trash-fill"></i></button>
+
+                </div>                <div class="carrito-productos">
+                    <img src="img/moto.webp" alt="">
+                    <div class="carrito-producto-titulo">
+                        <h3>Mancuerna 3 kilos</h3>
+                    </div>
+                    <div class="carrito-producto-cantidad">
+                        <small>Cantidad</small>
+                        <p>2</p>
+                    </div>
+                    <div class="carrito-producto-precio">
+                        <small>Precio</small>
+                        <p>$100</p>
+                    </div>
+                    <div class="carrito-producto-subtotal">
+                        <small>Subtotal</small>
+                        <p>$100</p>
+                    </div>
+                    <button class="carrito-producto-vaciar"><i class="bi bi-trash-fill"></i></button>
+
+                </div>
+            </div>
+            <div class="carritos-acciones">
+                <div class="carrito-acciones-izquierda">
+                    <button class="carrito-acciones-vaciar">Vaciar carrito</button>
+                </div>
+                
+                <div class="carrito-acciones-derecha">
+                    <div class="carrito-acciones-total">
+                        <p>Total:</p>
+                        <p id="total">$400</p>
+                    </div>
+                    <button class="carrito-acciones-comprar">Comprar ahora</button>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
