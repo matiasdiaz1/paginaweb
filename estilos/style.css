@@ -27,7 +27,7 @@ body {
   width: 100%;
 }
 
-/* =============== Navigation ================ */
+
 .navigation {
   position: fixed;
   width: 300px;
@@ -106,7 +106,6 @@ body {
 
 
 
-/* --------- curve outside ---------- */
 .navigation ul li:hover a::before,
 .navigation ul li.hovered a::before {
   content: "";
@@ -134,7 +133,7 @@ body {
   pointer-events: none;
 }
 
-/* ===================== Main ===================== */
+
 .main {
   position: absolute;
   width: calc(100% - 300px);
@@ -215,7 +214,7 @@ body {
   object-fit: cover;
 }
 
-/* ======================= Cards ====================== */
+
 .cardBox {
   position: relative;
   width: 100%;
@@ -410,7 +409,6 @@ body {
   color: var(--white);
 }
 
-/* ====================== Responsive Design ========================== */
 @media (max-width: 991px) {
   .navigation {
     left: -300px;

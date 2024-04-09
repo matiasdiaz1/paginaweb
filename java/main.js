@@ -1,4 +1,4 @@
-// add hovered class to selected list item
+
 let list = document.querySelectorAll(".navigation li");
 
 function activeLink() {
@@ -10,7 +10,6 @@ function activeLink() {
 
 list.forEach((item) => item.addEventListener("mouseover", activeLink));
 
-// Menu Toggle
 let toggle = document.querySelector(".toggle");
 let navigation = document.querySelector(".navigation");
 let main = document.querySelector(".main");
